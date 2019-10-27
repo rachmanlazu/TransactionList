@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, ScrollView } from 'react-native';
-import CardTransaction from './CardTansaction'
+import CardTransaction from './CardTransaction'
 import Axios from 'axios';
 import TransactionSearch from './TransactionSearch'
 

@@ -7,7 +7,6 @@ import NumberFormat from 'react-number-format';
 
 
 class CardTransaction extends React.Component{
-
     render(){
         let data = this.props.data; 
         moment.locale('id');
@@ -15,7 +14,7 @@ class CardTransaction extends React.Component{
         let color=''; 
         let status='';
         switch(data.status){
-            case 'SUCCESS':{ color = '#3cc217'; break};
+            case 'SUCCESS':{ color = '#66b081'; break};
             case 'PENDING': {color = '#fc6866'; break};
             case 'CANCEL': {color = '#c2b8b8'; break};
             default: color = '#fff';
